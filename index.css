@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 250px;
+    min-height: 450px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blue-span {
+    color: #4c89ff;
+    text-shadow: 1px 1px 20px #4c89ff;
+}
+
+.aqua-span {
+    color: #5eb0ff;
+    text-shadow: 1px 1px 20px #5eb0ff;
+}
+
+.yellow-span {
+    color: #f5d88c;
+    text-shadow: 1px 1px 20px #f5d88c;
+}
+
+.green-span {
+    color: #57e06a;
+    text-shadow: 1px 1px 20px #57e06a;
+}
+
+.purple-span {
+    color: #ca61ee;
+    text-shadow: 1px 1px 20px #ca61ee;
+}
+
+#c-code {
+    font-family: -apple-system, sans-serif;
+    color: rgb(200, 200, 200);
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 1px 1px 20px rgb(200, 200, 200);
+}
+
+@media screen and (max-width: 510px) {
+    #c-code {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #c-code {
+        font-size: 15px;
+    }
+}
